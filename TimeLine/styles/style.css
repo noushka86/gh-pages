@@ -1,0 +1,168 @@
+
+
+@media screen and (max-width: 599px){
+	.time h1{
+		font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width: 530px){
+	
+
+	.section{
+		flex-direction:column;
+	}
+	
+
+	.time h1{
+		font-size: 20px;
+	}
+
+	
+}
+
+
+#container{
+	max-width: 800px;
+	height: 800px;
+	display: flex;
+	flex-direction:column;
+	margin-right: 20px;
+}
+
+.section{
+	flex:1;
+	display:flex;
+	border:2px solid black;
+
+
+}
+
+.time{
+	
+	flex:1;
+	position: relative;
+	text-align: right;
+	max-width: 100%;
+}
+
+.line{
+
+flex:1;
+display: flex;
+flex-direction:column;
+border:2px solid black;
+}
+
+.icon{
+flex: 1;
+width: 50px;
+border-radius: 50%;
+background-color: #5fa6d5;
+border:6px solid #b7dbf4; 
+margin: auto;
+position: relative;
+text-align: center;
+
+
+
+}
+
+.vertical-ln{
+flex:4;
+ width: 6px;
+background-color: #b7dbf4;
+margin: auto;
+
+}
+
+
+.description{
+	flex:3;
+position: relative;
+
+}
+.text{
+	position: absolute;
+	max-width: 100%;
+	height: 95%;
+	border-radius: 3%;
+	background-color: #80c0e9;
+
+}
+
+.time h4{
+	font-size: 10px;
+	color: #d3e2ef;
+}
+
+.time h1{
+	color: #81c0e9;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.description h3{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	padding-left: 10px;
+	display: inline-block;
+	
+}
+
+.description h5{
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+hr{
+	 border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90%;
+    margin-top: -10px;
+
+}
+.triangle{
+	width: 0; 
+	height: 0; 
+	border-bottom: 20px solid transparent; 
+	border-top: 20px solid transparent; 
+	border-right: 20px solid #80c0e9; 
+	font-size: 0;
+	line-height: 0;
+	margin-left: -12px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.fa{
+	color: white;
+	top: 50%;
+	transform:translateY(-50%);
+	position: absolute;
+}
+.fa-mobile{
+	
+	margin-left: -7px;
+
+
+}
+
+.fa-desktop,.fa-television{
+	
+	margin-left: -8px;
+}
+
+
+
+
+
+

@@ -1,0 +1,196 @@
+
+body{
+	margin: 0;
+}
+.columns{
+margin: auto;
+max-width: 1000px;
+}
+
+.right-column{
+	max-width: 52%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 60px;
+	margin-left: 40px;
+
+
+}
+
+.left-column{
+	display: inline-block;
+	margin-left: -50px;
+	max-width: 18%;
+	vertical-align: top;
+
+	
+
+
+}
+
+
+.follow-us{
+width: 280px;
+position: fixed;
+display: inline-block;
+vertical-align: bottom;
+
+bottom: 20px;
+right: 50px;
+
+}
+
+.follow-us #first{
+	border: 1px solid #bbb;
+	
+
+}
+.follow-us #first h5{
+margin: 3px;
+
+	}
+
+.follow-us #second{
+	border: 1px solid #bbb;
+	margin: 0;
+	border-top: none;
+	height: 50px;
+
+}
+
+.follow-us #second #img {
+display:inline-block;
+
+	
+
+}
+
+.follow-us #second #tiy{
+display:inline-block;
+
+	
+
+}
+
+.follow-us #second #button{
+	display: inline-block;
+	
+		
+
+}
+
+.follow-us #second #img img{
+	width: 40px;
+	height: 40px;
+	margin: 0;
+margin-top: 5px
+
+
+}
+
+.follow-us #second #tiy h5{
+line-height: 20px;
+margin: 0;	
+
+
+
+
+}
+
+.follow-us #second #button button{
+	width: 60px;
+	height: 20px;
+	background-color: #158cbd;
+	border: none;
+	color: white;
+	
+	vertical-align: bottom;
+	margin: 0;
+	
+	
+
+
+}
+
+
+#side-bar >h1{
+
+font-family: 'Open Sans', sans-serif,Arial;
+margin-top: 50px;
+font-size:16px; 
+
+
+}
+#side-bar >h1>a{
+text-decoration: none;
+color:#666;
+
+
+}
+
+
+#hapenings{
+color: #aaa;
+font-size: 17px;
+margin-top: -25px;
+font-family: 'PT Serif', serif,Arial;
+line-height: 26px;
+border-bottom: 1px solid #eeeeee;
+font-weight: normal;
+padding-bottom: 30px;
+}
+
+#search-bar>h3{
+color: #bbb;
+font-family: 'Open Sans', sans-serif,Arial;
+font-weight: normal;
+
+}
+#search-bar>input{
+color: #BBBBBB;
+width: 100%;
+padding: 5px 24px 5px 8px;
+}
+
+#blog-img{
+	width: 100%;
+
+}
+#TIYBlack{
+border-radius: 300px;
+width:100px; 
+height:100px;
+border: 5px solid white;
+margin-top: -50px;
+
+}
+
+#post>h1 {
+	font-family: 'Open Sans', sans-serif,Arial;
+	font-size: 40px;
+	line-height: 60px;
+	color: #333333;
+}
+
+#post > p> em {
+font-family: 'PT Serif', sans-serif,Arial;
+font-size: 15px;
+color: #666666;
+}
+
+#post>p>em>a{
+text-decoration: none;
+color: #158cbd;
+}
+
+#content{
+	line-height:26px;
+	font-family: 'PT Serif', serif,Arial;
+	color: #666666;
+	font-size:100%;
+
+}
+
+span{
+		color: #BBBBBB;
+}
